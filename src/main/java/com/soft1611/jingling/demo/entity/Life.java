@@ -17,9 +17,4 @@ public class Life {
     private String name;
     private String desc;
 
-    public Life(String pic, String name, String desc) {
-        this.pic = pic;
-        this.name = name;
-        this.desc = desc;
-    }
 }

@@ -17,10 +17,4 @@ public class Entertainment {
     private String pic;
     private String name;
     private String desc;
-
-    public Entertainment(String pic, String name, String desc) {
-        this.pic = pic;
-        this.name = name;
-        this.desc = desc;
-    }
 }
