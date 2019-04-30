@@ -9,7 +9,6 @@ import javax.persistence.Id;
 
 @Entity
 @Data
-@Builder
 public class Games {
 
     @Id
@@ -18,4 +17,7 @@ public class Games {
     private String pic;
     private String name;
     private String desc;
+    public Games(){
+
+    }
 }

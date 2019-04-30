@@ -9,7 +9,6 @@ import javax.persistence.Id;
 
 @Entity
 @Data
-@Builder
 public class Entertainment {
     @Id
     @GeneratedValue
@@ -17,4 +16,7 @@ public class Entertainment {
     private String pic;
     private String name;
     private String desc;
+
+    public Entertainment() {
+    }
 }
