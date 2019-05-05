@@ -22,4 +22,9 @@ public class EntertainmentServiceImpl implements EntertainmentService {
     public List<Entertainment> getEntertainmentByNameLike(String keywords) {
         return entertainmentRepository.findByName(keywords);
     }
+
+    @Override
+    public Entertainment getEntertainment(Integer id) {
+        return entertainmentRepository.findById(id).get();
+    }
 }
