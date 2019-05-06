@@ -7,6 +7,6 @@ import org.springframework.data.jpa.repository.Query;
 import java.util.List;
 
 public interface MusicRepository extends JpaRepository<Music,Integer> {
-    @Query("From Album  a ORDER BY a.likes DESC ")
+    @Query("From Music  a ORDER BY a.likes DESC ")
     List<Music> findHotMusic();
 }
